@@ -1,0 +1,19 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+<h1>
+	Hello world!  
+</h1>
+
+<P>  The time on the server is ${serverTime}. </P>
+<p> ${test}</p>
+<p> ${test2}</p>
+<p> ${param.test}</p>
+<p> ${param.test2}</p>
+
+</body>
+</html>
